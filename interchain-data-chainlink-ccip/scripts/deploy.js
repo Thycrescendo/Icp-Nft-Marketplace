@@ -7,14 +7,6 @@ async function main() {
 
   // const TOKEN = await ethers.getContractFactory("Token");
 
-  const AUTOPOOL = await ethers.getContractFactory("AutoPool");
-
-  const Pool = await AUTOPOOL.deploy(Owner, 60, supportedToken);
-
-  await Pool.waitForDeployment();
-
-  console.log(` Your contract address: ${Pool.target}`);
-}
 
 main().catch((error) => {
   console.error(error);
