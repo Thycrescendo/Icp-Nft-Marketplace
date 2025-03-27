@@ -9,6 +9,7 @@ import Explore from "./pages/Explore";
 import { DAppProvider } from "@usedapp/core";
 import NFTDetail from "./pages/NFTDetail";
 
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>

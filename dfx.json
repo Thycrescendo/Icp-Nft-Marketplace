@@ -1,0 +1,15 @@
+{
+    "canisters": {
+    "nft_marketplace": {
+      "frontend": {
+        "entrypoint": "src/nft_marketplace_frontend/src/index.html"
+      },
+      "source": [
+        "src/nft_marketplace_frontend/assets",
+        "dist/nft_marketplace_frontend/"
+      ],
+      "type": "assets"
+    }
+  },
+  "version": 1
+}
